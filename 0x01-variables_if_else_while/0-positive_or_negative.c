@@ -5,7 +5,7 @@
 /* betty style doc for function main goes there */
 /**
  * main - Determines if a number is positive, negative or zero.
- *
+ * Description - Prints if random generated number is +tive, zero or -tive
  * Return : Always 0 (Success)
  */
 
