@@ -1,14 +1,7 @@
 #include <stdio.h>
 /**
  * main - program that prints all possible different combinations
- * of thress digits.
- *
- * Return: 0
- */
-#include <stdio.h>
-/**
- * main - program that prints all possible different combinations
- * of thress digits.
+ * of three digits 012 to 789
  *
  * Return: 0
  */
