@@ -7,16 +7,16 @@
  */
 int main(void)
 {
-	int a;
-	int b;
+	int dgt_a;
+	int dgt_b;
 
-	for (a = 0; a <= 9; a++)
+	for (dgt_a = 0; dgt_a <= 9; dgt_a++)
 	{
-		for (b = a + 1; b <= 9; b++)
+		for (dgt_b = dgt_a + 1; dgt_b <= 9; dgt_b++)
 		{
-			putchar(a + '0');
-			putchar(b + '0');
-			if (a < 8)
+			putchar(dgt_a + '0');
+			putchar(dgt_b + '0');
+			if (dgt_a < 8)
 			{
 				putchar(',');
 				putchar(' ');
