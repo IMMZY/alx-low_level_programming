@@ -2,16 +2,17 @@
 
 /**
  * print_numbers - prints numbers between 0 to 9.
- * Return: no return.
+ * charac - character
+ * Return: numbers 0 to 9.
  */
 
 void print_numbers(void)
 {
 	char charac;
 
-	for (charac = '0'; charac <= '9'; charac++)
+	for (charac = 48; charac < 58; charac++)
 	{
-		_putchar(charac + '0');
+		_putchar(charac);
 	}
 	_putchar('\n');
 }
