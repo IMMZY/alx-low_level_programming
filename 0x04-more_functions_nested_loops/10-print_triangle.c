@@ -6,18 +6,30 @@
  * Return: void
  */
 
+
 void print_triangle(int size)
 {
-	int a, b;
+	int i, j, k;
 
-	for (a = 0; a < size; a++)
+	if (size <= 0)
 	{
-		for (b = 1; b < (size - a); b++)
-			_putchar(' ');
-		for (b--; b < size; b++)
-			_putchar(35);
-		if (b < (size - 1))
-			_putchar('\n');
+		_putchar('\n');
 	}
-	_putchar('\n');
+	else
+	{
+		for (i = 0; i < size; i++)
+		{
+			for (j = size - i; j > 1; j--)
+			{
+				_putchar(32);
+			}
+
+			for (k = 0; k <= i; k++)
+			{
+				_putchar(35);
+			}
+
+			_putchar('\n');
+		}
+	}
 }
