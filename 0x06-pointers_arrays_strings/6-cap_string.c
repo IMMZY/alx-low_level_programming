@@ -4,7 +4,7 @@
 /**
  * cap_string - capitalizes all words of a string.
  *
- * @s: string.
+ * @c: string.
  *
  * Return: string.
  */
@@ -12,7 +12,8 @@
 char *cap_string(char *c)
 {
 	int i, j;
-	char _sp[13] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
+	char _sp[13] = {' ', '\t', '\n', ',', ';',
+'.', '!', '?', '"', '(', ')', '{', '}'};
 
 	for (i = 0; c[i] != '\0'; i++)
 	{
